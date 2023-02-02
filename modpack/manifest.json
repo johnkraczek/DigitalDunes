@@ -1,0 +1,450 @@
+{
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "forge-40.2.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "overrides": "overrides",
+  "manifestVersion": 1,
+  "version": "1.0.0",
+  "author": "John Kraczek",
+  "name": "DigitalDunes",
+  "files": [
+    {
+      "projectID": 32274,
+      "fileID": 4331319,
+      "required": true,
+      "__meta": {
+        "name": "JourneyMap"
+      }
+    },
+    {
+      "projectID": 69162,
+      "fileID": 4202941,
+      "required": true,
+      "__meta": {
+        "name": "CoFH Core",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 69163,
+      "fileID": 4101926,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Expansion",
+        "dependencies": [
+          222880
+        ]
+      }
+    },
+    {
+      "projectID": 74072,
+      "fileID": 4360093,
+      "required": true,
+      "__meta": {
+        "name": "Tinkers Construct",
+        "dependencies": [
+          74924
+        ]
+      }
+    },
+    {
+      "projectID": 74924,
+      "fileID": 4353120,
+      "required": true,
+      "__meta": {
+        "name": "Mantle",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 220318,
+      "fileID": 3827434,
+      "required": true,
+      "__meta": {
+        "name": "Biomes O' Plenty",
+        "dependencies": [
+          563928
+        ]
+      }
+    },
+    {
+      "projectID": 222880,
+      "fileID": 4102233,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Foundation",
+        "explicit": false,
+        "dependencies": [
+          69162
+        ]
+      }
+    },
+    {
+      "projectID": 223794,
+      "fileID": 4136407,
+      "required": true,
+      "__meta": {
+        "name": "Applied Energistics 2"
+      }
+    },
+    {
+      "projectID": 223852,
+      "fileID": 3807626,
+      "required": true,
+      "__meta": {
+        "name": "Storage Drawers"
+      }
+    },
+    {
+      "projectID": 225635,
+      "fileID": 3883933,
+      "required": true,
+      "__meta": {
+        "name": "AgriCraft",
+        "dependencies": [
+          251396
+        ]
+      }
+    },
+    {
+      "projectID": 225643,
+      "fileID": 3936568,
+      "required": true,
+      "__meta": {
+        "name": "Botania",
+        "dependencies": [
+          309927,
+          306770
+        ]
+      }
+    },
+    {
+      "projectID": 227639,
+      "fileID": 4337390,
+      "required": true,
+      "__meta": {
+        "name": "The Twilight Forest"
+      }
+    },
+    {
+      "projectID": 230976,
+      "fileID": 3693140,
+      "required": true,
+      "__meta": {
+        "name": "Fast Leaf Decay"
+      }
+    },
+    {
+      "projectID": 231951,
+      "fileID": 4369369,
+      "required": true,
+      "__meta": {
+        "name": "Immersive Engineering"
+      }
+    },
+    {
+      "projectID": 239197,
+      "fileID": 4376126,
+      "required": true,
+      "__meta": {
+        "name": "CraftTweaker",
+        "dependencies": [
+          368718
+        ]
+      }
+    },
+    {
+      "projectID": 242818,
+      "fileID": 4009409,
+      "required": true,
+      "__meta": {
+        "name": "CodeChicken Lib 1.8.+",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 245174,
+      "fileID": 3951068,
+      "required": true,
+      "__meta": {
+        "name": "Ender Storage 1.8.+",
+        "dependencies": [
+          242818
+        ]
+      }
+    },
+    {
+      "projectID": 251396,
+      "fileID": 3883932,
+      "required": true,
+      "__meta": {
+        "name": "InfinityLib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 251792,
+      "fileID": 3914653,
+      "required": true,
+      "__meta": {
+        "name": "Simply Jetpacks 2"
+      }
+    },
+    {
+      "projectID": 271835,
+      "fileID": 4101925,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Cultivation",
+        "dependencies": [
+          222880
+        ]
+      }
+    },
+    {
+      "projectID": 291737,
+      "fileID": 4101928,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Innovation",
+        "dependencies": [
+          222880
+        ]
+      }
+    },
+    {
+      "projectID": 306770,
+      "fileID": 3846086,
+      "required": true,
+      "__meta": {
+        "name": "Patchouli",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 309927,
+      "fileID": 3841948,
+      "required": true,
+      "__meta": {
+        "name": "Curios API (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 368718,
+      "fileID": 3950183,
+      "required": true,
+      "__meta": {
+        "name": "JEITweaker",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 406959,
+      "fileID": 4101931,
+      "required": true,
+      "__meta": {
+        "name": "Thermal Locomotion",
+        "dependencies": [
+          222880
+        ]
+      }
+    },
+    {
+      "projectID": 438332,
+      "fileID": 3862966,
+      "required": true,
+      "__meta": {
+        "name": "SuperMartijn642's Config Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 454372,
+      "fileID": 4364898,
+      "required": true,
+      "__meta": {
+        "name": "SuperMartijn642's Core Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 455982,
+      "fileID": 4368794,
+      "required": true,
+      "__meta": {
+        "name": "WTHIT Forge Edition",
+        "dependencies": [
+          615134
+        ]
+      }
+    },
+    {
+      "projectID": 456239,
+      "fileID": 3671353,
+      "required": true,
+      "__meta": {
+        "name": "Easy Magic",
+        "dependencies": [
+          495476
+        ]
+      }
+    },
+    {
+      "projectID": 472521,
+      "fileID": 4360507,
+      "required": true,
+      "__meta": {
+        "name": "Lightman's Currency"
+      }
+    },
+    {
+      "projectID": 495476,
+      "fileID": 3804332,
+      "required": true,
+      "__meta": {
+        "name": "Puzzles Lib",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 500273,
+      "fileID": 3773750,
+      "required": true,
+      "__meta": {
+        "name": "Visual Workbench",
+        "dependencies": [
+          495476
+        ]
+      }
+    },
+    {
+      "projectID": 503920,
+      "fileID": 4024684,
+      "required": true,
+      "__meta": {
+        "name": "Portable Tanks",
+        "dependencies": [
+          438332,
+          454372
+        ]
+      }
+    },
+    {
+      "projectID": 539057,
+      "fileID": 3671421,
+      "required": true,
+      "__meta": {
+        "name": "Trading Post",
+        "dependencies": [
+          495476
+        ]
+      }
+    },
+    {
+      "projectID": 541584,
+      "fileID": 3963200,
+      "required": true,
+      "__meta": {
+        "name": "Better Mods Button",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 544048,
+      "fileID": 3671318,
+      "required": true,
+      "__meta": {
+        "name": "Config Menus for Forge",
+        "dependencies": [
+          541584
+        ]
+      }
+    },
+    {
+      "projectID": 552642,
+      "fileID": 4101932,
+      "required": true,
+      "__meta": {
+        "name": "Tool's Complement",
+        "dependencies": [
+          69162
+        ]
+      }
+    },
+    {
+      "projectID": 557796,
+      "fileID": 4017699,
+      "required": true,
+      "__meta": {
+        "name": "Effective (Forge)"
+      }
+    },
+    {
+      "projectID": 563928,
+      "fileID": 3957976,
+      "required": true,
+      "__meta": {
+        "name": "TerraBlender (Forge)",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 593981,
+      "fileID": 3699110,
+      "required": true,
+      "__meta": {
+        "name": "Magnum Torch",
+        "dependencies": [
+          495476
+        ]
+      }
+    },
+    {
+      "projectID": 593996,
+      "fileID": 3693823,
+      "required": true,
+      "__meta": {
+        "name": "Bag Of Holding",
+        "dependencies": [
+          495476
+        ]
+      }
+    },
+    {
+      "projectID": 594006,
+      "fileID": 3718047,
+      "required": true,
+      "__meta": {
+        "name": "Easy Shulker Boxes",
+        "dependencies": [
+          495476
+        ]
+      }
+    },
+    {
+      "projectID": 615134,
+      "fileID": 4073849,
+      "required": true,
+      "__meta": {
+        "name": "bad packets",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 656583,
+      "fileID": 3954910,
+      "required": true,
+      "__meta": {
+        "name": "Portal Gates"
+      }
+    }
+  ]
+}
