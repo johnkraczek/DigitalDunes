@@ -134,6 +134,14 @@
       }
     },
     {
+      "projectID": 228756,
+      "fileID": 3966367,
+      "required": true,
+      "__meta": {
+        "name": "Iron Chests"
+      }
+    },
+    {
       "projectID": 230976,
       "fileID": 3693140,
       "required": true,
@@ -147,6 +155,14 @@
       "required": true,
       "__meta": {
         "name": "Immersive Engineering"
+      }
+    },
+    {
+      "projectID": 238551,
+      "fileID": 3713957,
+      "required": true,
+      "__meta": {
+        "name": "GraveStone Mod"
       }
     },
     {
@@ -181,6 +197,25 @@
       }
     },
     {
+      "projectID": 245755,
+      "fileID": 3830849,
+      "required": true,
+      "__meta": {
+        "name": "Waystones",
+        "dependencies": [
+          531761
+        ]
+      }
+    },
+    {
+      "projectID": 250832,
+      "fileID": 3670034,
+      "required": true,
+      "__meta": {
+        "name": "OpenBlocks Elevator"
+      }
+    },
+    {
       "projectID": 251396,
       "fileID": 3883932,
       "required": true,
@@ -209,6 +244,14 @@
       }
     },
     {
+      "projectID": 282001,
+      "fileID": 4061947,
+      "required": true,
+      "__meta": {
+        "name": "CC: Tweaked"
+      }
+    },
+    {
       "projectID": 291737,
       "fileID": 4101928,
       "required": true,
@@ -217,6 +260,14 @@
         "dependencies": [
           222880
         ]
+      }
+    },
+    {
+      "projectID": 298187,
+      "fileID": 4095788,
+      "required": true,
+      "__meta": {
+        "name": "Building Gadgets"
       }
     },
     {
@@ -229,12 +280,49 @@
       }
     },
     {
+      "projectID": 308989,
+      "fileID": 3650485,
+      "required": true,
+      "__meta": {
+        "name": "Caelus API (Forge)"
+      }
+    },
+    {
       "projectID": 309927,
       "fileID": 3841948,
       "required": true,
       "__meta": {
         "name": "Curios API (Forge)",
         "explicit": false
+      }
+    },
+    {
+      "projectID": 317716,
+      "fileID": 3601975,
+      "required": true,
+      "__meta": {
+        "name": "Elytra Slot (Forge)",
+        "dependencies": [
+          309927,
+          308989
+        ]
+      }
+    },
+    {
+      "projectID": 351264,
+      "fileID": 4311661,
+      "required": true,
+      "__meta": {
+        "name": "Kotlin for Forge",
+        "explicit": false
+      }
+    },
+    {
+      "projectID": 351725,
+      "fileID": 4178158,
+      "required": true,
+      "__meta": {
+        "name": "Macaw's Bridges"
       }
     },
     {
@@ -247,6 +335,14 @@
       }
     },
     {
+      "projectID": 388800,
+      "fileID": 4119080,
+      "required": true,
+      "__meta": {
+        "name": "Polymorph (Forge)"
+      }
+    },
+    {
       "projectID": 406959,
       "fileID": 4101931,
       "required": true,
@@ -255,6 +351,14 @@
         "dependencies": [
           222880
         ]
+      }
+    },
+    {
+      "projectID": 416089,
+      "fileID": 4372207,
+      "required": true,
+      "__meta": {
+        "name": "Simple Voice Chat"
       }
     },
     {
@@ -306,6 +410,18 @@
       }
     },
     {
+      "projectID": 495267,
+      "fileID": 4370587,
+      "required": true,
+      "__meta": {
+        "name": "Inventory Profiles Next",
+        "dependencies": [
+          351264,
+          679177
+        ]
+      }
+    },
+    {
       "projectID": 495476,
       "fileID": 3804332,
       "required": true,
@@ -335,6 +451,15 @@
           438332,
           454372
         ]
+      }
+    },
+    {
+      "projectID": 531761,
+      "fileID": 4361371,
+      "required": true,
+      "__meta": {
+        "name": "Balm (Forge Edition)",
+        "explicit": false
       }
     },
     {
@@ -430,6 +555,14 @@
       }
     },
     {
+      "projectID": 594709,
+      "fileID": 4326962,
+      "required": true,
+      "__meta": {
+        "name": "Luggage"
+      }
+    },
+    {
       "projectID": 615134,
       "fileID": 4073849,
       "required": true,
@@ -444,6 +577,18 @@
       "required": true,
       "__meta": {
         "name": "Portal Gates"
+      }
+    },
+    {
+      "projectID": 679177,
+      "fileID": 4370454,
+      "required": true,
+      "__meta": {
+        "name": "libIPN",
+        "explicit": false,
+        "dependencies": [
+          351264
+        ]
       }
     }
   ]
