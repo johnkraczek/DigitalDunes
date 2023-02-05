@@ -8,6 +8,9 @@ on:
 env:
   PROJECT_ID: "822139"
 
+permissions:
+  contents: write
+
 jobs:
   modpack-info:
     runs-on: ubuntu-latest
