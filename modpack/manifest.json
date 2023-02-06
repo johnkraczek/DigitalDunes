@@ -158,6 +158,14 @@
       }
     },
     {
+      "projectID": 238222,
+      "fileID": 4352925,
+      "required": true,
+      "__meta": {
+        "name": "Just Enough Items (JEI)"
+      }
+    },
+    {
       "projectID": 238551,
       "fileID": 3713957,
       "required": true,
