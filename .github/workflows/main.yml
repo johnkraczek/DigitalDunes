@@ -129,7 +129,7 @@ jobs:
           project_id: ${{ env.PROJECT_ID }}
           game_endpoint: minecraft
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          changelog: "${{ needs.changelog.outputs.changelog }}"
+          changelog: "${{ needs.changelog.outputs.changelog }} <br> Minecraft ${{ needs.modpack-info.outputs.version }}"
           changelog_type: markdown
-          game_versions: "Minecraft ${{ needs.modpack-info.outputs.version }}" 
+          game_versions: "Minecraft 1.18.2,Forge" 
           release_type: ${{ steps.release-type.outputs.type }}
