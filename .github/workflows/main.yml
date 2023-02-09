@@ -124,14 +124,26 @@ jobs:
             *) rel_type="release" ;;
           esac
           echo "name=type::$rel_type" >> $GITHUB_OUTPUT
-      - name: Create release
-        uses: itsmeow/curseforge-upload@v3
-        with:
-          token: ${{ secrets.CF_API_TOKEN }}
-          project_id: ${{ env.PROJECT_ID }}
-          game_endpoint: minecraft
-          file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
-          changelog: "${{ needs.changelog.outputs.changelog }}"
-          changelog_type: markdown
-          game_versions: "9008"
-          release_type: ${{ steps.release-type.outputs.type }}
+
+      - name: debug output
+        run:  |
+          echo '### Hello world! ' >> $GITHUB_STEP_SUMMARY
+          echo 'project_id: ${{ env.PROJECT_ID }}' >> $GITHUB_STEP_SUMMARY
+          echo 'game_endpoint: minecraft' >> $GITHUB_STEP_SUMMARY
+          echo 'file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip' >> $GITHUB_STEP_SUMMARY
+          echo 'changelog: "${{ needs.changelog.outputs.changelog }}"' >> $GITHUB_STEP_SUMMARY
+          echo 'changelog_type: markdown' >> $GITHUB_STEP_SUMMARY
+          echo 'game_versions: "9008"' >> $GITHUB_STEP_SUMMARY
+          echo 'release_type: ${{ steps.release-type.outputs.type }}' >> $GITHUB_STEP_SUMMARY
+
+      # - name: Create release
+      #   uses: itsmeow/curseforge-upload@v3
+      #   with:
+      #     token: ${{ secrets.CF_API_TOKEN }}
+      #     project_id: ${{ env.PROJECT_ID }}
+      #     game_endpoint: minecraft
+      #     file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
+      #     changelog: "${{ needs.changelog.outputs.changelog }}"
+      #     changelog_type: markdown
+      #     game_versions: "9008"
+      #     release_type: ${{ steps.release-type.outputs.type }}
