@@ -33,6 +33,14 @@ jobs:
         id: version
         uses: actions-ecosystem/action-get-latest-tag@v1
 
+      - name: Step Summary
+        id: summary
+        run: |
+          echo 'Project Name: ${{ steps.info.outputs.projectname }}' >> $GITHUB_STEP_SUMMARY
+          echo 'Project Version: ${{ steps.info.outputs.version }}' >> $GITHUB_STEP_SUMMARY
+          echo 'Latest Tag: ${{ steps.version.outputs.tag }}'
+
+
   changelog:
     runs-on: ubuntu-latest
     outputs:
