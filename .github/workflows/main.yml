@@ -28,7 +28,7 @@ jobs:
             projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
             echo "name=projectname::$projectname" >> $GITHUB_OUTPUT
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-            echo "version::$version" >> $GITHUB_OUTPUT
+            echo "version=$version" >> $GITHUB_OUTPUT
       - name: Get tag
         id: version
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
