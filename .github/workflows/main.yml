@@ -131,5 +131,5 @@ jobs:
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           changelog: "${{ needs.changelog.outputs.changelog }} <br> Minecraft ${{ needs.modpack-info.outputs.version }}"
           changelog_type: markdown
-          game_versions: "Minecraft 1.18.2,Forge" 
+          game_versions: "9008,7498" 
           release_type: ${{ steps.release-type.outputs.type }}
