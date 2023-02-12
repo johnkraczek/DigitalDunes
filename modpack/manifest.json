@@ -194,6 +194,17 @@
       }
     },
     {
+      "projectID": 243883,
+      "fileID": 3865388,
+      "required": true,
+      "__meta": {
+        "name": "Chicken Chunks 1.8.+",
+        "dependencies": [
+          242818
+        ]
+      }
+    },
+    {
       "projectID": 245174,
       "fileID": 3951068,
       "required": true,
@@ -367,6 +378,17 @@
       "required": true,
       "__meta": {
         "name": "Simple Voice Chat"
+      }
+    },
+    {
+      "projectID": 431725,
+      "fileID": 4390720,
+      "required": true,
+      "__meta": {
+        "name": "Advanced Peripherals",
+        "dependencies": [
+          282001
+        ]
       }
     },
     {
