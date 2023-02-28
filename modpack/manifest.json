@@ -103,17 +103,6 @@
       }
     },
     {
-      "projectID": 225635,
-      "fileID": 3883933,
-      "required": true,
-      "__meta": {
-        "name": "AgriCraft",
-        "dependencies": [
-          251396
-        ]
-      }
-    },
-    {
       "projectID": 225643,
       "fileID": 3936568,
       "required": true,
@@ -232,15 +221,6 @@
       "required": true,
       "__meta": {
         "name": "OpenBlocks Elevator"
-      }
-    },
-    {
-      "projectID": 251396,
-      "fileID": 3883932,
-      "required": true,
-      "__meta": {
-        "name": "InfinityLib",
-        "explicit": false
       }
     },
     {
