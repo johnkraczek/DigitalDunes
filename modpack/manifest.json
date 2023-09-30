@@ -502,26 +502,6 @@
       }
     },
     {
-      "projectID": 541584,
-      "fileID": 4665753,
-      "required": true,
-      "__meta": {
-        "name": "Better Mods Button",
-        "explicit": false
-      }
-    },
-    {
-      "projectID": 544048,
-      "fileID": 4576770,
-      "required": true,
-      "__meta": {
-        "name": "Config Menus for Forge",
-        "dependencies": [
-          541584
-        ]
-      }
-    },
-    {
       "projectID": 552642,
       "fileID": 4759897,
       "required": true,
