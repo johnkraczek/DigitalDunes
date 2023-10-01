@@ -12,7 +12,6 @@
   "overrides": "overrides",
   "manifestVersion": 1,
   "version": "1.0.0",
-  "curseforge": 9366,
   "author": "John Kraczek",
   "name": "DigitalDunes",
   "files": [
@@ -213,14 +212,6 @@
       "required": true,
       "__meta": {
         "name": "OpenBlocks Elevator"
-      }
-    },
-    {
-      "projectID": 251792,
-      "fileID": 4615995,
-      "required": true,
-      "__meta": {
-        "name": "Simply Jetpacks 2"
       }
     },
     {
