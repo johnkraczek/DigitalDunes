@@ -12,6 +12,7 @@
   "overrides": "overrides",
   "manifestVersion": 1,
   "version": "1.0.0",
+  "curseforge": 9366,
   "author": "John Kraczek",
   "name": "DigitalDunes",
   "files": [

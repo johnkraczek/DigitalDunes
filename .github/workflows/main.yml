@@ -16,6 +16,7 @@ jobs:
       projectname: ${{ steps.info.outputs.projectname }}
       version: ${{ steps.info.outputs.version }}
       tag: ${{ steps.version.outputs.tag }}
+      curseforge: ${{ steps.info.outputs.curseforge }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -27,6 +28,8 @@ jobs:
             echo "projectname=$projectname" >> $GITHUB_OUTPUT
             version=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
             echo "version=$version" >> $GITHUB_OUTPUT
+            curseforge=`echo $(jq -r '.curseforge' <<< "$manifestjson")`
+            echo "curseforge=$curseforge" >> $GITHUB_OUTPUT
       - name: Get tag
         id: version
         uses: actions-ecosystem/action-get-latest-tag@v1
@@ -37,7 +40,7 @@ jobs:
           echo 'Project Name: ${{ steps.info.outputs.projectname }}' >> $GITHUB_STEP_SUMMARY
           echo 'Project Version: ${{ steps.info.outputs.version }}' >> $GITHUB_STEP_SUMMARY
           echo 'Latest Tag: ${{ steps.version.outputs.tag }}' >> $GITHUB_STEP_SUMMARY
-
+          echo 'Curseforge: ${{ steps.info.outputs.curseforge }}' >> $GITHUB_STEP_SUMMARY
 
   changelog:
     runs-on: ubuntu-latest
@@ -157,5 +160,5 @@ jobs:
           file_path: ${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.tag }}.zip
           changelog: "${{ needs.changelog.outputs.changelog }}"
           changelog_type: markdown
-          game_versions: "9008"
+          game_versions: ${{ needs.modpack-info.outputs.version }}
           release_type: ${{ steps.release-type.outputs.type }}
