@@ -582,6 +582,17 @@
           351264
         ]
       }
+    },
+    {
+      "projectID": 852668,
+      "fileID": 4499066,
+      "required": true,
+      "__meta": {
+        "name": "Hang Glider [Forge & Fabric]",
+        "dependencies": [
+          495476
+        ]
+      }
     }
   ]
 }
